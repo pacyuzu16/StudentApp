@@ -108,3 +108,8 @@ The application uses a SQLite database named `SchoolDB.db` with the following ta
 | `ID`        | `INTEGER`   | `PRIMARY KEY AUTOINCREMENT` | Unique identifier for each log entry.     |
 | `Action`    | `TEXT`      | `NOT NULL`                  | Description of the action performed.      |
 | `Timestamp` | `DATETIME` | `DEFAULT CURRENT_TIMESTAMP` | Timestamp when the action was logged.     |
+
+## 📜 License
+
+This project is open-source and distributed under the terms of the MIT License.  
+See the [LICENSE](LICENSE) file for more details.
