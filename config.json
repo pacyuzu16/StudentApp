@@ -1,0 +1,10 @@
+{
+  "ConnectionString": "Data Source=SchoolDB.db",
+  "Theme": {
+    "HeaderColor": "Cyan",
+    "SuccessColor": "Green",
+    "ErrorColor": "Red",
+    "PromptColor": "Yellow"
+  },
+  "MaxLogEntries": 20
+}

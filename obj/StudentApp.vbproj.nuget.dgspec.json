@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pacyusi/Desktop/Y2/programing pradigm/StudentApp/StudentApp.vbproj": {}
+  },
+  "projects": {
+    "/home/pacyusi/Desktop/Y2/programing pradigm/StudentApp/StudentApp.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pacyusi/Desktop/Y2/programing pradigm/StudentApp/StudentApp.vbproj",
+        "projectName": "StudentApp",
+        "projectPath": "/home/pacyusi/Desktop/Y2/programing pradigm/StudentApp/StudentApp.vbproj",
+        "packagesPath": "/home/pacyusi/.nuget/packages/",
+        "outputPath": "/home/pacyusi/Desktop/Y2/programing pradigm/StudentApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pacyusi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.8, 6.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
